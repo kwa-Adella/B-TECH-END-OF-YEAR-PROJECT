@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afterschool Program Registration Form</title>
+    <link rel="stylesheet" href="form-fill.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Science Afterschool Program Registration Form</h1>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="student-first-name">Student Name</label>
+                <div class="name-fields">
+                    <input type="text" id="student-first-name" name="student-first-name" placeholder="First" required>
+                    <input type="text" id="student-last-name" name="student-last-name" placeholder="Last" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="grade">Grade</label>
+                <input type="text" id="grade" name="grade" required>
+            </div>
+            <div class="form-group">
+                <label for="teacher">Teacher</label>
+                <input type="text" id="teacher" name="teacher" required>
+            </div>
+            <div class="form-group">
+                <label for="guardian-first-name">Guardian Name</label>
+                <div class="name-fields">
+                    <input type="text" id="guardian-first-name" name="guardian-first-name" placeholder="First" required>
+                    <input type="text" id="guardian-last-name" name="guardian-last-name" placeholder="Last" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" id="phone-number" name="phone-number" placeholder="### ### ####" required>
+            </div>
+            <div class="form-group">
+                <label for="allergies">List all allergies, food restrictions, and anything special about your child we should know. If none, leave as N/A.</label>
+                <textarea id="allergies" name="allergies" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
